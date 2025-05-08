@@ -1,0 +1,110 @@
+div.top {
+    background-color: var(--black);
+    /* padding: 15px 0; */
+    padding-block: 15px;
+    padding-inline: 0;
+}
+
+div.contactNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    & > a {
+        color: var(--white);
+    }
+}
+
+div.bottom {
+    background-color: var(--lightBlue);
+    /* padding: 10px 0; */
+    padding-block: 10px;
+    padding-inline: 0;
+}
+
+span.inanceText {
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+nav.nav {
+    padding: 0;
+}
+
+a.menuLinks {
+    color: var(--black);
+    /* padding: 10px 25px; */
+    padding-block: 10px;
+    padding-inline: 25px;
+    text-align: center;
+
+    &:hover {
+        color: var(--blue);
+    }
+}
+
+.navTogglerSpan {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: var(--black);
+    /* margin: 7px 0; */
+    margin-block: 7px;
+    margin-inline: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.navTogglerSpan::before,
+.navTogglerSpan::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.navTogglerSpan::before {
+    top: -10px;
+}
+
+.navTogglerSpan::after {
+    top: 10px;
+}
+
+/*  */
+.headerIcon {
+    color: var(--orange);
+}
+
+.emailIcon {
+    transform: translateY(1px);
+}
+
+.phoneIcon {
+    vertical-align: baseline;
+    font-size: 0.8rem;
+}
+
+.topHeaderLinks {
+    display: flex;
+}
+
+.topHeaderLinks > div:first-child {
+    margin-inline-end: 0.2em;
+}
+
+.topHeaderLinks > div:last-child {
+    margin-inline-end: 0.2em;
+}

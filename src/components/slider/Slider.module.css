@@ -1,0 +1,35 @@
+h1.h1 {
+    font-weight: bold;
+    /* margin-bottom: 25px; */
+    margin-block-end: 25px;
+    color: var(--blue);
+}
+
+p.para {
+    color: #444;
+    font-size: 15px;
+}
+
+a.link {
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    /* padding: 10px 45px; */
+    padding-block: 10px;
+    padding-inline: 45px;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    color: var(--white);
+    /* margin-top: 15px; */
+    margin-block-start: 15px;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--orange);
+    }
+}
+
+img.img {
+    width: 100%;
+}

@@ -1,0 +1,138 @@
+/* GET IN TOUCH */
+div.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+div.imgBox {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 80px;
+
+    &:hover {
+        background-color: var(--orange);
+    }
+}
+
+.imgIcon {
+    font-size: 24px;
+    color: var(--white);
+}
+
+div.infoItems {
+    position: relative;
+    /* margin-top: 1.5em; */
+    margin-block-start: 1.5em;
+}
+
+p.imgIconText {
+    color: var(--white);
+    /* margin-top: 2em; */
+    margin-block-start: 2em;
+    position: relative;
+    /* Important: ensures line goes behind text */
+    background-color: var(--darkBlue);
+}
+
+/* White line that connects images */
+div.infoItems::before {
+    position: absolute;
+    content: "";
+    background-color: var(--white);
+}
+
+/* FOLLOW US */
+section.infoSection {
+    /* padding: 75px 0; */
+    padding-block: 75px;
+    padding-inline: 0;
+    background-color: var(--darkBlue);
+    text-align: center;
+    color: var(--white);
+}
+
+h4.h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    /* margin-bottom: 25px; */
+    margin-block-end: 25px;
+}
+
+div.socialBox {
+    /* margin: 25px auto 0; */
+    margin-block-start: 25px;
+    margin-inline: auto;
+    margin-block-end: 0;
+}
+
+div.box {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    /* margin: 0 auto; */
+    margin-block: 0;
+    margin-inline: auto;
+    padding: 5px 15px;
+}
+
+.iconLink {
+    /* margin: 0 5px; */
+    margin-block: 0;
+    margin-inline: 5px;
+    color: var(--blue);
+    &:hover {
+        color: var(--orange);
+    }
+}
+
+.icon {
+    font-size: 18px;
+}
+
+/* MEDIA QUERIES */
+/* Bootstrap breakpoints */
+@media (width >= 280px) {
+    div.infoItems::before {
+        top: 0;
+        width: 1px;
+        /* Prevent line from showing at the bottom of last text  */
+        height: 92%;
+        /* Rotate line - vertical */
+        rotate: 180deg;
+    }
+
+    /* Increase height of line that connects other image */
+    div[data-content="phone"],
+    div[data-content="mail"] {
+        /* margin-top: 2em; */
+        margin-block-start: 2em;
+    }
+}
+
+@media (width >= 768px) {
+    div.infoItems::before {
+        top: 28%;
+        width: 75%;
+        height: 1px;
+        /* Bring line back to default - horizontal */
+        rotate: 0deg;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Remove margin */
+    div[data-content="phone"],
+    div[data-content="mail"] {
+        /* margin-top: 0; */
+        margin-block-start: 0;
+    }
+}

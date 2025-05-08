@@ -1,0 +1,18 @@
+{
+    "heading": "Contact Us",
+    "sendButtonText": "Send",
+    "namePlaceholder": "Name",
+    "phonePlaceholder": "Phone Number",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "emptyFields": "Please provide values for all fields before submitting a message.",
+    "formSubmittedRecently": "You last submitted a message on {{dateOfLastMessage}}. Please wait up to three days from your last message before sending another one. We appreciate your patience!",
+    "errorProcessingMessage": "An error occurred while processing your message. Please try again later.",
+    "messageSentSuccesfully": "Form successfully submitted! We will get in touch with you within three days. Please wait three days before submitting another message.",
+    "phonePatternMessage": "Please enter a valid phone number. It should be in the format: (+)xxxxxxxxxxxx, where the plus is optional.",
+    "fieldMissing": "Please fill in this field",
+    "emailPatternMessage": "Please include an '@' in the email address",
+    "textAreaMessage": "Please lengthen this text to {{minlength}} characters or more (you are currently using {{characters}})",
+    "ogTitle": "Contact Us",
+    "ogDescription": "Have questions or need assistance? Get in touch with Inance - we're here to help and look forward to hearing from you."
+}

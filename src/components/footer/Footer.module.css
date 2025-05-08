@@ -1,0 +1,26 @@
+footer.footer {
+    background-color: var(--darkBlue);
+}
+
+p.text {
+    margin: 0;
+    /* padding: 25px 0; */
+    padding-block: 25px;
+    padding-inline: 0;
+    color: var(--white);
+    text-align: center;
+    /* border-top: 0.8px solid var(--white); */
+    border-block-start: 0.8px solid var(--white);
+}
+
+p.text > a {
+    color: inherit;
+}
+
+.select {
+    margin-inline: 0.5em;
+}
+
+.languageSelectText {
+    color: var(--lightBlue);
+}

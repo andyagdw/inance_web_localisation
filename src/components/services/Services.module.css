@@ -1,0 +1,99 @@
+section.section {
+    position: relative;
+}
+
+div.box {
+    /* margin-top: 30px; */
+    margin-block-start: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    /* padding: 25px 15px; */
+    padding-block: 25px;
+    padding-inline: 15px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &:hover {
+        background-color: var(--orange);
+        color: var(--white);
+    }
+}
+
+div.imgBox {
+    width: 65px;
+    height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+img.img {
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+div.detailBox {
+    /* margin-top: 15px; */
+    margin-block-start: 15px;
+}
+
+h5.h5 {
+    font-weight: bold;
+}
+
+p.para {
+    margin: 0;
+}
+
+.box:hover .img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+div.btnBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* margin-top: 45px; */
+    margin-block-start: 45px;
+}
+
+a.btnBoxLink {
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    /* padding: 10px 45px; */
+    padding-block: 10px;
+    padding-inline: 45px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 0;
+    color: var(--white);
+
+    &:hover {
+        background-color: transparent;
+        color: var(--blue);
+    }
+}

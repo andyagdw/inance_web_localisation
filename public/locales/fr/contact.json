@@ -1,0 +1,18 @@
+{
+    "heading": "Contactez-nous",
+    "sendButtonText": "Envoyer",
+    "namePlaceholder": "Nom",
+    "phonePlaceholder": "Numéro de téléphone",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Message",
+    "emptyFields": "Veuillez fournir des valeurs pour tous les champs avant de soumettre un message.",
+    "formSubmittedRecently": "Votre dernier message a été envoyé le {{dateOfLastMessage}}. Veuillez attendre jusqu'à trois jours après votre dernier message avant d'en envoyer un autre. Nous apprécions votre patience!",
+    "errorProcessingMessage": "Une erreur s'est produite lors du traitement de votre message. Veuillez réessayer plus tard.",
+    "messageSentSuccesfully": "Formulaire soumis avec succès! Nous vous contacterons dans les trois jours. Veuillez attendre trois jours avant de soumettre un autre message.",
+    "phonePatternMessage": "Veuillez entrer un numéro de téléphone valide. Il doit être au format: (+)xxxxxxxxxxxx, où le plus est facultatif.",
+    "fieldMissing": "Merci de remplir ce champ",
+    "emailPatternMessage": "Veuillez inclure un « @ » dans l'adresse e-mail",
+    "textAreaMessage": "Veuillez allonger ce texte à {{minlength}} caractères ou plus (vous utilisez actuellement {{characters}})",
+    "ogTitle": "Contactez-nous",
+    "ogDescription": "Vous avez des questions ou besoin d'aide ? Contactez Inance - nous sommes là pour vous aider et nous sommes impatients de vous entendre."
+}
