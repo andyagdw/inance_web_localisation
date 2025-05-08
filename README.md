@@ -99,3 +99,8 @@ service cloud.firestore {
 ### 7. Start The Development Server
 
 `npm run dev`
+
+## Credits
+### Contact
+
+If you have any questions or just want to connect, you can reach me on [LinkedIn](https://uk.linkedin.com/in/andyagyeidwumah) 👍
