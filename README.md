@@ -20,8 +20,8 @@ the localisation features, you can skip steps 2 and 3.
 
 ### 1. Clone the Repository
 
-* `git clone `
-* `cd `
+* `git clone https://github.com/andyagdw/inance_web_localisation.git`
+* `cd inance_web_localisation`
 
 ### 2. (Optional) Create a Firebase Project
 
